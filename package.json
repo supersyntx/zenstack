@@ -1,0 +1,29 @@
+{
+  "name": "zenstack",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/supersyntx/zenstack"
+  },
+  "author": {
+    "name": "supersyntx",
+    "url": "https://github.com/supersyntx"
+  },
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@space/eslint-config": "workspace:*",
+    "@space/typescript-config": "workspace:*",
+    "prettier": "^3.5.1",
+    "turbo": "^2.4.2",
+    "typescript": "5.7.3"
+  },
+  "packageManager": "pnpm@10.4.1",
+  "engines": {
+    "node": ">=20"
+  }
+}
