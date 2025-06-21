@@ -1,6 +1,7 @@
 {
   "extends": "@space/typescript-config/nextjs.json",
   "compilerOptions": {
+    "strict": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
@@ -18,6 +19,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "../../packages/ui/src/components/custom/login.tsx"  ],
   "exclude": ["node_modules"]
 }

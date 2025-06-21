@@ -12,19 +12,26 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
     "@space/ui": "workspace:*",
+    "@tanstack/react-query": "^5.80.10",
+    "better-auth": "^1.2.9",
     "lucide-react": "^0.475.0",
     "next": "^15.2.3",
     "next-themes": "^0.4.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.1",
+    "sonner": "^2.0.5",
+    "zod": "^3.25.67"
   },
   "devDependencies": {
+    "@space/eslint-config": "workspace:^",
+    "@space/typescript-config": "workspace:*",
+    "@tanstack/eslint-plugin-query": "^5.78.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@space/eslint-config": "workspace:^",
-    "@space/typescript-config": "workspace:*",
     "typescript": "^5.7.3"
   }
 }
